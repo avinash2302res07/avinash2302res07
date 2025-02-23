@@ -1,0 +1,90 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOh4YE2ziHknktHnwOxZNx8",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/avinash2302res07/avinash2302res07/blob/main/PySpark%20Notes\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**PySpark** is the Python API for Apache Spark, a distributed computing system that provides an interface for programming entire clusters with implicit data parallelism and fault tolerance."
+      ],
+      "metadata": {
+        "id": "Wis9dvNXoUJA"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Installation Guidelines**"
+      ],
+      "metadata": {
+        "id": "qsRDhxCkn_wt"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "* **Installing PySpark**\n",
+        "\n",
+        "You can  install/check specific spark components using the following syntax\n"
+      ],
+      "metadata": {
+        "id": "lhAWY_3hoqJU"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "pip install pyspark"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hratPRetob1y",
+        "outputId": "463024f6-773d-4669-8421-bc90ac00d051"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Requirement already satisfied: pyspark in /usr/local/lib/python3.11/dist-packages (3.5.4)\n",
+            "Requirement already satisfied: py4j==0.10.9.7 in /usr/local/lib/python3.11/dist-packages (from pyspark) (0.10.9.7)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "egsMTjfGsT94"
+      }
+    }
+  ]
+}
